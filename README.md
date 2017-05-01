@@ -25,3 +25,6 @@ in Windows.
 ![Alt text](https://github.com/scMarth/remove-carriage-returns/blob/master/Screenshots/Cleaned%20Sample.png?raw=true)
 
 ## Notes:
+
+https://github.com/scMarth/remove-carriage-returns/blob/master/NOTES.md
+
