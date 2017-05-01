@@ -22,7 +22,9 @@ in Windows.
 ![Alt text](https://github.com/scMarth/remove-carriage-returns/blob/master/Screenshots/Sample.png?raw=true)
 
 **cleanedSample.txt**
-![Alt text](https://github.com/scMarth/remove-carriage-returns/blob/master/Screenshots/Cleaned%20Sample.png?raw=true)## Notes:
+![Alt text](https://github.com/scMarth/remove-carriage-returns/blob/master/Screenshots/Cleaned%20Sample.png?raw=true)
+
+## Notes:
 
 In C, `printf("\r");` prints the carriage return character, which shows up in a hex editor as `0x0D`. The carriage return character moves the cursor to the beginning of the line. 
 
