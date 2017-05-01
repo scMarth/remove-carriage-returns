@@ -8,6 +8,16 @@ Removes carriage returns from files.
 
 2.) ./removecr Sample.txt cleanedSample.txt
 
+## Sample Screenshots:
+
+```
+$ cat Sample.txt 
+This text
+file
+was created
+in Windows.
+```
+
 **Sample.txt**
 ![Alt text](https://github.com/scMarth/remove-carriage-returns/blob/master/Screenshots/Sample.png?raw=true)
 
@@ -75,5 +85,5 @@ line2: file
 concatenated: This textfile
 ```
 
-The concatenation fails on the Windows textfile, but works on the cleaned up file.
+As can be seen above, the concatenation fails on the Windows textfile, but works on the cleaned up file.
 
