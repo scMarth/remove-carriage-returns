@@ -131,7 +131,7 @@ regex_search DID NOT find 'This(.)*file' in line1
 
 ```
 
-The C++ program assumes that the lines end with "\n", so when it reads the first line, it really reads "This text0x0D" then the second line as "file0x0D". When it concatenates these two strings, the result is "This text0x0Dfile0x0D". This can be more easily seen by first capturing  the output of the program using `./concat Sample.txt > hexoutput` and looking at the file in a hex editor:
+The C++ program assumes that the lines end with "\n", so when it reads the first line, it really reads "This text0x0D" then the second line as "file0x0D". When it concatenates these two strings, the result is "This text0x0Dfile0x0D". This can be more easily seen by first capturing  the output of the program using `./concat Sample.txt > hexoutput` and then looking at the file in a hex editor:
 
 **hexoutput**
 ![Alt text](https://github.com/scMarth/remove-carriage-returns/blob/master/Screenshots/hexoutput.png?raw=true)
