@@ -24,7 +24,7 @@ in Windows.
 **cleanedSample.txt**
 ![Alt text](https://github.com/scMarth/remove-carriage-returns/blob/master/Screenshots/Cleaned%20Sample.png?raw=true)
 
-## Notes:
+## Notes about Carriage Returns:
 
 https://github.com/scMarth/remove-carriage-returns/blob/master/NOTES.md
 
