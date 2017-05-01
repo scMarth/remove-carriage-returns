@@ -115,7 +115,7 @@ in Windows.
 The output of this program is:
 
 ```
-s$ ./concat Sample.txt 
+$ ./concat Sample.txt 
 line1: This text
 line2: file
 
